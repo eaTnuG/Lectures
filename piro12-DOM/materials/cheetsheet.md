@@ -105,8 +105,8 @@ var minute = now.getMinutes()       // 현재시각의 분을 반환한다.
 var someFunction = function() {
     console.log("interval task")
 }
-var intervalid = setInterval(someFunction, time);   // 특정 시간을 주기로 함수를 반복해서 호출하도록 등록한다. 동시에 해당 반복작업의 id를 반환한다
-clearInterval(id);                                  //  반복작업의 id를 인자로 넘기면 해당 작업을 중단한다.
+var intervalId = setInterval(someFunction, time);   // 특정 시간을 주기로 함수를 반복해서 호출하도록 등록한다. 동시에 해당 반복작업의 id를 반환한다
+clearInterval(intervalId);                                  //  반복작업의 id를 인자로 넘기면 해당 작업을 중단한다.
 ```
 
 ## DOM API
