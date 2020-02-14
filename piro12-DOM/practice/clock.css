@@ -59,15 +59,19 @@ html, body{
 }
 
 .button {
-    width: 40%;
+    width: 25%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#onOff {
+#on {
     background-color: green;
+}
+
+#off {
+    background-color: red;
 }
 
 #register{
