@@ -52,3 +52,12 @@ endButton.addEventListener('click', event => {
     end();
 })
 
+document.addEventListener('click', event => {
+    if(event.target.tagName === "IMG") {
+        console.log('두더지를 잡았습니다.')
+    } else if (event.target.className === 'cell') {
+        console.log('두더지를 놓쳤습니다.')
+    } else {
+        console.log('경기장이 아닙니다.')
+    }
+})
